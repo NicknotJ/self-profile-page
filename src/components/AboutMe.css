@@ -1,1 +1,21 @@
 /* #DAFFEF #D0FFD6 #D5E2BC #A6979C #D3C0D2 #746973*/
+
+.aboutMeContainer{
+    background-color: #D5E2BC;
+    height: 100%;
+}
+
+h1{
+    margin-left: 2%;
+}
+
+.aboutMeImg{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.revolvingImage {
+    float: right;
+    width: 80%;
+}
