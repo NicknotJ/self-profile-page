@@ -1,0 +1,39 @@
+/* #DAFFEF #D0FFD6 #D5E2BC #A6979C #D3C0D2 #746973*/
+.masterProject {
+    box-sizing: border-box;
+    background-color: #D3C0D2;
+}
+
+.row::before,
+.row::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.one, .one-third {
+    width: 100%;
+}
+
+.one-third {
+    background-color: #DAFFEF;
+    box-shadow: 2px 2px 2px 1px rgba(166, 151, 156, .9);
+    margin: 1%;
+}
+
+@media only screen and (min-width: 700px){
+    .one {
+        width: 100%;
+    }
+    .one-third {
+        width: calc(100% / 3);
+    }
+    .column {
+        float: left;
+    }
+}
+
+.one-third > img {
+    width: 33%;
+}
+
