@@ -43,13 +43,13 @@
 }
 
 @media only screen and (max-width: 450px){
-    h3 {
+    .homePicHolder > h3 {
       font-size: 12px;
     }
-    p{
+    .homePicHolder > p{
         font-size: 10px;
     }
-    .profilePic{
+    .homePicHolder > .profilePic{
       width: 80%;  
     }
   } 

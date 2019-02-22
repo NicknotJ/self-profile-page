@@ -2,19 +2,23 @@ import React, { Component } from 'react';
 import './App.css';
 import Home from './components/Home.js';
 import AboutMe from './components/AboutMe.js';
+import {Link, BrowserRouter as Router, Route} from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
       <div role='container'>
         <header>
-          <a>Home</a>
-          <a>About Me</a>
-          <a>Projects</a>
-          <a>Contact Me</a>
+          <nav>
+            <Link className="link" to="/">Home</Link>
+            <Link className="link" to="/AboutMe">About Me</Link>
+            <Link className="link" to="/Projects">Projects</Link>
+            <Link className="link" to="/Contact">Contact Me</Link>
+          </nav>
         </header>
         <div role='container'>
-          <AboutMe />
+          <Route path="/" exact  component={Home}/>
+          <Route path="/AboutMe" exact  component={AboutMe} />
         </div>
       </div>
     );

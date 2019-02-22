@@ -1,4 +1,4 @@
-header > a {
+header > nav > .link {
   margin-left: 2%;
   margin-right: 2%;
   background-color: #DAFFEF;
@@ -16,7 +16,7 @@ header {
 }
 
 @media only screen and (max-width: 400px){
-  header > a {
+  header > nav > .link {
     margin-right: 1%;
     margin-left: 1%;
   }

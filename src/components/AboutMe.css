@@ -2,20 +2,29 @@
 
 .aboutMeContainer{
     background-color: #D5E2BC;
-    height: 100%;
 }
 
-h1{
-    margin-left: 2%;
+.aboutMeContainer > h1{
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 0px;
 }
+
+
 
 .aboutMeImg{
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 70%;
+    padding: 1%;
 }
+
+
 
 .revolvingImage {
     float: right;
-    width: 80%;
+    width: 70%;
+    margin-left: 1%;
+    background-color: #DAFFEF;
+    padding: 1%;
 }
